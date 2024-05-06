@@ -2,15 +2,16 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Next.js Blog Starter Kit',
-    description: 'Clone and deploy your own Next.js portfolio in minutes.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    title: 'Qurashi Akeel\'s Portfolio | Blog',
+    description: 'The portfolio website for Qurashi Akeel',
+    image: '/images/logo.png',
   }
 
   return (
     <Html lang="en">
       <Head>
         <meta name="robots" content="follow, index" />
+        <link rel="icon" type="image/png" href="/images/logo.png" />
         <meta name="description" content={meta.description} />
         <meta property="og:site_name" content={meta.title} />
         <meta property="og:description" content={meta.description} />
