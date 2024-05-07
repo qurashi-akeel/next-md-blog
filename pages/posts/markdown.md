@@ -1,9 +1,9 @@
 ---
 title: Markdown Examples
-date: 2021/3/19
+date: 2024/3/19
 description: View examples of all possible Markdown options.
 tag: web development
-author: You
+author: Admin
 ---
 
 # Markdown Examples
@@ -40,9 +40,10 @@ Unordered
 
 Ordered
 
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
+1. Lorem ipsum dolor sit amet 
+1. 2nd element
+1. Consectetur adipiscing elit
+1. Integer molestie lorem at massa
 
 ## Code
 
@@ -75,11 +76,11 @@ export default function Nextra({ Component, pageProps }) {
 
 ## Tables
 
-| **Option** | **Description**                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| First      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Second     | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Third      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+| **Option** | **Description**                        |
+| ---------- | -------------------------------------- |
+| First      | Lorem ipsum dolor sit amet, consectetur|
+| Second     | ut labore et dolore magna aliqua.      |
+| Third      | tempor incididunt ut labore et dol.    |
 
 ## Links
 
